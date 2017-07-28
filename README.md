@@ -1,4 +1,3 @@
 # Cabesa-bot
 
-A funny chat bot for learning spanish language
-
+A chat bot to help you learn spanish in a funny way
