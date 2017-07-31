@@ -1,10 +1,11 @@
 {
   "name": "cabesa-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A chat bot to help you learn spanish in a funny way",
+  "main": "src",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r babel-register -r dotenv/config src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/jonthebeach/cabesa-bot/issues"
   },
-  "homepage": "https://github.com/jonthebeach/cabesa-bot#readme"
+  "homepage": "https://github.com/jonthebeach/cabesa-bot#readme",
+  "dependencies": {
+    "botkit": "^0.5.6",
+    "dotenv": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
 }
